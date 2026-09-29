@@ -1,0 +1,89 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Prediction Result</title>
+
+    <style>
+        body{
+            font-family: Arial;
+            background:#f2f2f2;
+            text-align:center;
+            margin-top:70px;
+        }
+
+        .box{
+            width:500px;
+            margin:auto;
+            background:white;
+            padding:30px;
+            border-radius:15px;
+            box-shadow:0px 0px 10px gray;
+        }
+
+        h1{
+            color:#0a4d8c;
+        }
+
+        h2{
+            color:green;
+            font-size:35px;
+        }
+
+        h3{
+            color:#333;
+        }
+
+        p{
+            font-size:20px;
+        }
+
+        button{
+            padding:12px 25px;
+            font-size:18px;
+            background:#007BFF;
+            color:white;
+            border:none;
+            border-radius:8px;
+            cursor:pointer;
+        }
+
+        button:hover{
+            background:#0056b3;
+        }
+
+        hr{
+            margin:20px 0;
+        }
+    </style>
+
+</head>
+
+<body>
+
+<div class="box">
+
+    <h1>Loan Prediction Result</h1>
+
+    <h2>{{ prediction }}</h2>
+
+    <hr>
+
+    <h3>Applicant Details</h3>
+
+    <p><b>Annual Income:</b> {{ income }}</p>
+
+    <p><b>Loan Amount:</b> {{ loan }}</p>
+
+    <p><b>CIBIL Score:</b> {{ cibil }}</p>
+
+    <br>
+
+    <a href="/input">
+        <button>Predict Again</button>
+    </a>
+
+</div>
+
+</body>
+</html>
