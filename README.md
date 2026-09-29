@@ -48,10 +48,3 @@ Sindhu
 Live Demo
 👉 Start Prediction
 
-Releases
-No releases published
-Contributors
-1
- (1)
-@kandukurisindhureddy-bit
-kandukurisindhureddy-bitKandukuri Sindhu
